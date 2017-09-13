@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Pacientes</string>
+    <string name="cadastro_paciente">Cadastro de Paciente</string>
+    <string name="lista_paciente">Lista de Pacientes</string>
+
+    <string name="imagem_menu">imagem_menu</string>
+    <string name="imagem_paciente">imagem_paciente</string>
+    <string name="imagem_opcao">imagem_opcao</string>
+
+    <string name="menu_paciente">Menu do Paciente</string>
+    <string name="dados_paciente">Dados do Paciente</string>
+
+    <string name="by_intro">by Felipe</string>
+    <string name="nome_cadastro">Nome</string>
+    <string name="telefone_cadastro">Telefone</string>
+    <string name="cpf_cadastro">CPF</string>
+    <string name="doenca_cadastro">Doença</string>
+    <string name="medicacao_cadastro">Medicação</string>
+    <string name="data_cadastro">Data</string>
+    <string name="valor_cadastro">Valor</string>
+    <string name="detalhes_cadastro">Detalhes do Paciente</string>
+    <string name="salvar_cadastro">Salvar Paciente</string>
+    <string name="opcoes_paciente">Opções do Paciente</string>
+    <string name="novo">Novo</string>
+    <string name="lista">Lista</string>
+    <string name="editar">Editar</string>
+    <string name="deletar">Deletar</string>
+    <string name="editar_paciente">Editar usuário</string>
+    <string name="imagem_lista">imagem_lista</string>
+    <string name="lista_pacientes">Lista de Pacientes</string>
+    <string name="imagem_nome">imagem_nome</string>
+    <string name="visualizar">Visualizar</string>
+</resources>

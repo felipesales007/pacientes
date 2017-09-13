@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imagem_menu"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/menu"
+        android:contentDescription="@string/imagem_menu" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/menu_paciente"
+        android:id="@+id/txt_menu_paciente"
+        android:textStyle="bold"
+        android:textColor="#696969"
+        android:background="#b0b0b0"
+        android:gravity="center" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/novo"
+            android:id="@+id/btn_novo_paciente"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:textColor="#696969"
+            android:textStyle="bold"
+            android:onClick="getActivity" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lista"
+            android:id="@+id/btn_lista_paciente"
+            android:layout_alignTop="@+id/btn_novo_paciente"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="20dp"
+            android:textColor="#696969"
+            android:textStyle="bold"
+            android:onClick="getActivity" />
+    </RelativeLayout>
+</LinearLayout>
