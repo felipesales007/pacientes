@@ -10,7 +10,6 @@
 | --- | --- |
 |<img src="https://uploaddeimagens.com.br/images/001/970/154/original/9.png" width="450" height="600" /> | <img src="https://uploaddeimagens.com.br/images/001/970/152/original/8.png" width="450" height="600" />
 
-
 Aplicativo Android desenvolvido para o armazenamento de dados de pacientes de um consultório.
 
 ## Versão disponível
